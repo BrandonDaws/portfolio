@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header {
+position: relative;
+overflow: hidden;
+background-image: url(./images/portfolio\ banner2.png);
+background-repeat: no-repeat;
+display: flex;
+flex-direction: column-reverse;
+flex-wrap: wrap;
+}
+
+.name {
+    color: rgba(255, 155, 0 , .8);
+    font-size: 45px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-style: italic;
+    text-shadow: 0 0 8px rgba( 187 , 161, 79);
+    padding: 10px;
+}
+video.bgvideo{
+    z-index: -1;
+    
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding: 10px;
+}
+
+header nav ul li a {
+ padding: 10px 20px;
+ font-size: 1.6vw;
+ text-shadow: 0 0 10px rgb(56, 122, 223);
+ list-style: none;
+}
+
+header nav ul li a:hover{
+    background: rgb(228, 49, 168);
+    color: goldenrod;
+    border-radius: 15px;
+}
+body{
+    background-image: url(./images/PortBod.png);
+}
+body a{
+    color: goldenrod;
+}
+
+
+
+p{
+    color: white;
+    line-height: 1.5;
+    font-family: fantasy;
+}
+h2 , h3 , h4{
+    color: gold;
+}
+
+
+
+.about-me {
+    display: flex;
+    padding: 20px;
+    
+
+}
+
+.about-me img{
+    min-width: 450px;
+    max-width: 550px;
+}
+
+.bio-text {
+    line-height: 1.5;
+    font-family: fantasy;
+    padding: 15px;
+    color: white;
+}
+
+.rising-qoute {
+    padding: 10px;
+    text-align: center;
+    font-size: x-large;
+    color: gold;
+}
+
+.projects {
+    padding: 10px;
+}
+
+.run-buddy img {
+width: 200px;
+height: 200px;
+}
+
+.photos {
+    padding: 10px;
+}
+
+
+.photos-preview {
+    display: flex;
+    padding: 10px;
+    height: 400px;
+}
+
+.photos-animals {
+    padding: 10px;
+}
+
+.photos-nature {
+    padding: 10px;
+}
+
+.interests {
+    padding: 10px;
+}
+
+
+@media screen and (max-width:980px) {
+   
+}
+
+@media  screen and (max-width=768px) {
+    .about-me img  {
+        flex: 2 100%;    }
+    
+}
+
+@media screen and (max-width=575px) {
+    .about-me{
+        display: block;
+    }
+    .bio{
+        display: flex;
+    }
+}
